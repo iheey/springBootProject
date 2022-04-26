@@ -18,6 +18,7 @@ public class MainTest {
         Config config = new Config();
         config.useSingleServer().setAddress("redis://192.168.142.142:6379");
         client = Redisson.create(config);
+//        提交更改
     }
     @Test
     public void connectionRedisson() {
