@@ -7,6 +7,7 @@ import org.redisson.config.Config;
 
 import java.util.Map;
 
+//redisson操作
 public class GeoTest {
     private RedissonClient redisson;
     public GeoTest(){
