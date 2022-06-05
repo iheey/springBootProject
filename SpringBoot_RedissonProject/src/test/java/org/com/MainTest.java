@@ -17,6 +17,7 @@ public class MainTest {
         a.set("hello");
         Object o = a.get();
         System.out.println(o);
+//         测试2
     }
 
 }
